@@ -3,7 +3,6 @@ import {
   Controller,
   Delete,
   Get,
-  NotFoundException,
   Param,
   Patch,
   Post,
@@ -12,7 +11,6 @@ import {
 import { CreateTaskDto } from './dto/create-task.dto';
 import { GetTaskFilterDto } from './dto/get-task-filter.dto';
 import { UpdateTaskStatusDto } from './dto/update-task.dto';
-import { TaskStatus } from './task-status.enum';
 import { Task } from './task.entiy';
 import { TasksService } from './tasks.service';
 
